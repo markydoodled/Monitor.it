@@ -12,11 +12,12 @@ Coming Soon...
 - Start Workouts
 - View Activity Data
 - View Heart Rate Data
+- Play Music During Workouts
 
 # Features To Come
 
-- Play Music During Workouts
 - Add CareKit Medication Tracking Features
+- Breathe Fuctionality
 - Add Support For More Workouts
 
 # Images
