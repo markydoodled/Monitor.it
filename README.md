@@ -5,7 +5,7 @@ This is a lightweight SwiftUI app that allows you to track health data and start
 
 # Releases
 
-Coming Soon...
+[Click Here...](https://github.com/markydoodled/Monitor.it/releases)
 
 # Features
 
