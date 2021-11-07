@@ -22,4 +22,4 @@ Any Suggestions...
 
 # Images
 
-[Click Here...](https://github.com/markydoodled/Monitor.it/Images)
+[Click Here...](https://github.com/markydoodled/Monitor.it/tree/main/Images)
