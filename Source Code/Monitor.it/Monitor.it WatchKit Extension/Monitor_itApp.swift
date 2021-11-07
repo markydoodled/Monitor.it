@@ -70,6 +70,7 @@ class WorkoutManager: NSObject, ObservableObject {
     }
     
     @Published var running = false
+    @Published var waterLock = false
 
     func togglePause() {
         if running == true {
@@ -133,7 +134,8 @@ class WorkoutManager: NSObject, ObservableObject {
     func requestAuthorisation() {
         if HKHealthStore.isHealthDataAvailable() {
         let typesToShare: Set = [
-            HKQuantityType.workoutType()
+            HKQuantityType.workoutType(),
+            HKObjectType.categoryType(forIdentifier: .mindfulSession)!
         ]
         
         let typesToRead: Set = [
@@ -143,6 +145,7 @@ class WorkoutManager: NSObject, ObservableObject {
             HKQuantityType.quantityType(forIdentifier: .distanceCycling)!,
             HKQuantityType.quantityType(forIdentifier: .appleExerciseTime)!,
             HKQuantityType.quantityType(forIdentifier: .appleStandTime)!,
+            HKObjectType.categoryType(forIdentifier: .mindfulSession)!,
             HKObjectType.activitySummaryType()
         ]
         

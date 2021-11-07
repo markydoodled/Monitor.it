@@ -177,6 +177,8 @@
 				D5A3D9BD2700EB570025C087 /* PBXTargetDependency */,
 			);
 			name = Monitor.it;
+			packageProductDependencies = (
+			);
 			productName = Monitor.it;
 			productReference = D5A3D9B62700EB560025C087 /* Monitor.it.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
@@ -211,6 +213,8 @@
 			dependencies = (
 			);
 			name = "Monitor.it WatchKit Extension";
+			packageProductDependencies = (
+			);
 			productName = "Monitor.it WatchKit Extension";
 			productReference = D5A3D9C52700EB5E0025C087 /* Monitor.it WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
@@ -245,6 +249,8 @@
 				Base,
 			);
 			mainGroup = D5A3D9AF2700EB560025C087;
+			packageReferences = (
+			);
 			productRefGroup = D5A3D9B72700EB560025C087 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -436,7 +442,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complications;
 				CODE_SIGN_ENTITLEMENTS = "Monitor.it WatchKit Extension/Monitor.it WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Monitor.it WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
 				ENABLE_PREVIEWS = YES;
@@ -453,7 +459,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.Monitor-it.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
@@ -471,7 +477,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complications;
 				CODE_SIGN_ENTITLEMENTS = "Monitor.it WatchKit Extension/Monitor.it WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Monitor.it WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
 				ENABLE_PREVIEWS = YES;
@@ -488,7 +494,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.Monitor-it.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
@@ -507,12 +513,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Monitor_it_WatchKit_Extension;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.Monitor-it.watchkitapp";
 				PRODUCT_NAME = Monitor.it;
 				SDKROOT = watchos;
@@ -531,12 +537,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Monitor_it_WatchKit_Extension;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.Monitor-it.watchkitapp";
 				PRODUCT_NAME = Monitor.it;
 				SDKROOT = watchos;
@@ -552,9 +558,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.Monitor-it";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -565,9 +571,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.Monitor-it";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

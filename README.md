@@ -13,12 +13,12 @@ This is a lightweight SwiftUI app that allows you to track health data and start
 - View Activity Data
 - View Heart Rate Data
 - Play Music During Workouts
+- Add Support For More Workouts
+- Breathe Fuctionality
 
 # Features To Come
 
-- Add CareKit Medication Tracking Features
-- Breathe Fuctionality
-- Add Support For More Workouts
+Any Suggestions...
 
 # Images
 

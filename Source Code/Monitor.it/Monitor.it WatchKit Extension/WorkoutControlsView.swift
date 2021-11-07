@@ -6,14 +6,17 @@
 //
 
 import SwiftUI
+import WatchKit
 
 struct WorkoutControlsView: View {
     @EnvironmentObject var workoutManager: WorkoutManager
     var body: some View {
+        VStack {
         HStack {
             VStack {
                 Button {
                     workoutManager.endWorkout()
+                    workoutManager.waterLock = false
                 } label: {
                     Image(systemName: "xmark")
                 }
@@ -32,7 +35,25 @@ struct WorkoutControlsView: View {
                 Text(workoutManager.running ? "Pause" : "Resume")
             }
         }
+            HStack {
+                VStack {
+                    Button {
+                        if WKInterfaceDevice.current().waterResistanceRating == .wr50 {
+                            WKInterfaceDevice.current().enableWaterLock()
+                        workoutManager.waterLock = true
+                        } else {
+                            print("Not To Water Lock Standards")
+                        }
+                    } label: {
+                        Image(systemName: "drop.fill")
+                    }
+                    .tint(.blue)
+                    .font(.title2)
+                    Text("Lock")
+                }
+            }
     }
+}
 }
 
 struct WorkoutControlsView_Previews: PreviewProvider {
