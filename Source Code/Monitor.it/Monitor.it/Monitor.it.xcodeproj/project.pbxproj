@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D52F9A1929190460007DA264 /* Monitor.it Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D52F9A1829190460007DA264 /* Monitor.it Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D52F9A1E29190460007DA264 /* Monitor_itApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F9A1D29190460007DA264 /* Monitor_itApp.swift */; };
+		D52F9A2029190460007DA264 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F9A1F29190460007DA264 /* ContentView.swift */; };
+		D52F9A2229190462007DA264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52F9A2129190462007DA264 /* Assets.xcassets */; };
+		D52F9A2529190462007DA264 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52F9A2429190462007DA264 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D52F9A1A29190460007DA264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D52F9A0C29190460007DA264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52F9A1729190460007DA264;
+			remoteInfo = "Monitor.it Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D52F9A2B29190462007DA264 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D52F9A1929190460007DA264 /* Monitor.it Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D52F9A1229190460007DA264 /* Monitor.it.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monitor.it.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52F9A1829190460007DA264 /* Monitor.it Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Monitor.it Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52F9A1D29190460007DA264 /* Monitor_itApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monitor_itApp.swift; sourceTree = "<group>"; };
+		D52F9A1F29190460007DA264 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D52F9A2129190462007DA264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D52F9A2429190462007DA264 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D52F9A2F291904B3007DA264 /* Monitor-it-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Monitor-it-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D52F9A30291904C9007DA264 /* Monitor.it Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Monitor.it Watch App.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D52F9A1529190460007DA264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D52F9A0B29190460007DA264 = {
+			isa = PBXGroup;
+			children = (
+				D52F9A1C29190460007DA264 /* Monitor.it Watch App */,
+				D52F9A1329190460007DA264 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D52F9A1329190460007DA264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D52F9A1229190460007DA264 /* Monitor.it.app */,
+				D52F9A1829190460007DA264 /* Monitor.it Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D52F9A1C29190460007DA264 /* Monitor.it Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				D52F9A30291904C9007DA264 /* Monitor.it Watch App.entitlements */,
+				D52F9A2F291904B3007DA264 /* Monitor-it-Watch-App-Info.plist */,
+				D52F9A1D29190460007DA264 /* Monitor_itApp.swift */,
+				D52F9A1F29190460007DA264 /* ContentView.swift */,
+				D52F9A2129190462007DA264 /* Assets.xcassets */,
+				D52F9A2329190462007DA264 /* Preview Content */,
+			);
+			path = "Monitor.it Watch App";
+			sourceTree = "<group>";
+		};
+		D52F9A2329190462007DA264 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D52F9A2429190462007DA264 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D52F9A1129190460007DA264 /* Monitor.it */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D52F9A2C29190462007DA264 /* Build configuration list for PBXNativeTarget "Monitor.it" */;
+			buildPhases = (
+				D52F9A1029190460007DA264 /* Resources */,
+				D52F9A2B29190462007DA264 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D52F9A1B29190460007DA264 /* PBXTargetDependency */,
+			);
+			name = Monitor.it;
+			productName = Monitor.it;
+			productReference = D52F9A1229190460007DA264 /* Monitor.it.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		D52F9A1729190460007DA264 /* Monitor.it Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D52F9A2829190462007DA264 /* Build configuration list for PBXNativeTarget "Monitor.it Watch App" */;
+			buildPhases = (
+				D52F9A1429190460007DA264 /* Sources */,
+				D52F9A1529190460007DA264 /* Frameworks */,
+				D52F9A1629190460007DA264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Monitor.it Watch App";
+			productName = "Monitor.it Watch App";
+			productReference = D52F9A1829190460007DA264 /* Monitor.it Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D52F9A0C29190460007DA264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					D52F9A1129190460007DA264 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					D52F9A1729190460007DA264 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = D52F9A0F29190460007DA264 /* Build configuration list for PBXProject "Monitor.it" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D52F9A0B29190460007DA264;
+			productRefGroup = D52F9A1329190460007DA264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D52F9A1129190460007DA264 /* Monitor.it */,
+				D52F9A1729190460007DA264 /* Monitor.it Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D52F9A1029190460007DA264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52F9A1629190460007DA264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52F9A2529190462007DA264 /* Preview Assets.xcassets in Resources */,
+				D52F9A2229190462007DA264 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D52F9A1429190460007DA264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52F9A2029190460007DA264 /* ContentView.swift in Sources */,
+				D52F9A1E29190460007DA264 /* Monitor_itApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D52F9A1B29190460007DA264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D52F9A1729190460007DA264 /* Monitor.it Watch App */;
+			targetProxy = D52F9A1A29190460007DA264 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D52F9A2629190462007DA264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D52F9A2729190462007DA264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D52F9A2929190462007DA264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Monitor.it Watch App/Monitor.it Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Monitor.it Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = ZWASU9HFBU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Monitor-it-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Monitor.it;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.Monitor-it.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		D52F9A2A29190462007DA264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Monitor.it Watch App/Monitor.it Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Monitor.it Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = ZWASU9HFBU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Monitor-it-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Monitor.it;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.Monitor-it.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		D52F9A2D29190462007DA264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWASU9HFBU;
+				INFOPLIST_KEY_CFBundleDisplayName = Monitor.it;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MSJ.Monitor.it;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D52F9A2E29190462007DA264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWASU9HFBU;
+				INFOPLIST_KEY_CFBundleDisplayName = Monitor.it;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MSJ.Monitor.it;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D52F9A0F29190460007DA264 /* Build configuration list for PBXProject "Monitor.it" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52F9A2629190462007DA264 /* Debug */,
+				D52F9A2729190462007DA264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D52F9A2829190462007DA264 /* Build configuration list for PBXNativeTarget "Monitor.it Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52F9A2929190462007DA264 /* Debug */,
+				D52F9A2A29190462007DA264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D52F9A2C29190462007DA264 /* Build configuration list for PBXNativeTarget "Monitor.it" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52F9A2D29190462007DA264 /* Debug */,
+				D52F9A2E29190462007DA264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D52F9A0C29190460007DA264 /* Project object */;
+}
