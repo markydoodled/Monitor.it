@@ -2,7 +2,7 @@
 
 This Is A Lightweight SwiftUI App That Allows You To Track Health Data And Start Workouts From Apple Watch.
 
-# **Features**
+## **Features**
 
 - Start Workouts
 - View Activity Data
