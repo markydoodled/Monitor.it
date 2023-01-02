@@ -1,11 +1,6 @@
 # Monitor.it
-**About**
 
 This Is A Lightweight SwiftUI App That Allows You To Track Health Data And Start Workouts From Apple Watch.
-
-# **Releases**
-
-[Click Here...](https://github.com/markydoodled/Monitor.it/releases)
 
 # **Features**
 
@@ -15,14 +10,6 @@ This Is A Lightweight SwiftUI App That Allows You To Track Health Data And Start
 - Play Music During Workouts
 - Add Support For More Workouts
 - Breathe Fuctionality
-
-# **Features To Be Implemented**
-
-Any Suggestions...
-
-# **Images**
-
-[Click Here...](https://github.com/markydoodled/Monitor.it/tree/main/Images)
 
 ## **Things To Note**
 
