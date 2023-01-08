@@ -279,9 +279,9 @@ struct ActivityRings: WKInterfaceObjectRepresentable {
                 let energy = summaries?.first?.activeEnergyBurned.doubleValue(for: energyUnit)
                 let stand = summaries?.first?.appleStandHours.doubleValue(for: standUnit)
                 let exercise = summaries?.first?.appleExerciseTime.doubleValue(for: exerciseUnit)
-                data.energyData = "\(energy?.rounded(.towardZero) ?? Double(0.0)) Kcal"
-                data.exerciseData = "\(exercise?.rounded(.towardZero) ?? Double(0.0)) Mins"
-                data.standData = "\(stand?.rounded(.towardZero) ?? Double(0.0)) Hours"
+                data.energyData = "\(energy?.rounded(.towardZero) ?? Double(0.0))".dropLast(2) + " Kcal"
+                data.exerciseData = "\(exercise?.rounded(.towardZero) ?? Double(0.0))".dropLast(2) + " Mins"
+                data.standData = "\(stand?.rounded(.towardZero) ?? Double(0.0))".dropLast(2) + " Hours"
                 rings.setActivitySummary(summaries?.first, animated: true)
             }
         }
