@@ -8,7 +8,6 @@ This Is A Lightweight SwiftUI App That Allows You To Track Health Data And Start
 - View Activity Data
 - View Heart Rate Data
 - Play Music During Workouts
-- Add Support For More Workouts
 - Breathe Fuctionality
 
 ## **Things To Note**
