@@ -2,6 +2,8 @@
 
 This Is A Lightweight SwiftUI App That Allows You To Track Health Data And Start Workouts From Apple Watch.
 
+THIS IS AN EXAMPLE APP THAT SHOWS EXAMPLE CODE THAT IS USED TO HELP PEOPLE UNDERSTAND HOW iOS AND SwiftUI WORKS, PLEASE EXPECT BUGS! 
+
 ## Supported Platforms
 
 - watchOS 9.0+
