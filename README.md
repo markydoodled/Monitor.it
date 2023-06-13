@@ -10,6 +10,10 @@ This Is A Lightweight SwiftUI App That Allows You To Track Health Data And Start
 - Play Music During Workouts
 - Breathe Fuctionality
 
+## Releases
+
+[Click Here...](https://github.com/markydoodled/Monitor.it/releases)
+
 ## **Things To Note**
 
  1. This Project Is Free To Be Added To By The Community, If You Wish To Help, File A Issue With The Enhancement Tag
